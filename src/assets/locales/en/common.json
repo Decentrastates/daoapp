@@ -314,6 +314,7 @@
       "voteTitle": "Winning option",
       "voteTitleMultisig": "Approval progress",
       "states": {
+        "all": "All",
         "draft": "Draft",
         "pending": "Pending",
         "active": "Active",

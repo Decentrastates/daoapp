@@ -6,15 +6,16 @@ import {AvatarDao} from '../avatar';
 import {Button, Icon, IconType, Dropdown} from '@aragon/ods';
 import {Link} from '../link';
 import {ListItemLink} from '../listItem';
+import {useTranslation} from 'react-i18next';
 
 const DEFAULT_LINES_SHOWN = 2;
 const DEFAULT_LINKS_SHOWN = 2;
-const DEFAULT_TRANSLATIONS = {
-  follow: 'Follow',
-  following: 'Following',
-  readLess: 'Read less',
-  readMore: 'Read more',
-};
+// const DEFAULT_TRANSLATIONS = {
+//   follow: 'Follow',
+//   following: 'Following',
+//   readLess: t('settings.dao.summaryToggleClose'),
+//   readMore: t('settings.dao.summaryToggleMore'),
+// };
 
 export type HeaderDaoProps = {
   daoName: string;
@@ -61,6 +62,14 @@ export const HeaderDao: React.FC<HeaderDaoProps> = ({
   onCopy,
   onFollowClick,
 }) => {
+  const {t} = useTranslation();
+
+  const DEFAULT_TRANSLATIONS = {
+    follow: 'Follow',
+    following: 'Following',
+    readLess: t('settings.dao.summaryToggleClose'),
+    readMore: t('settings.dao.summaryToggleMore'),
+  };
   const labels = {...DEFAULT_TRANSLATIONS, ...translation};
 
   const [showAll, setShowAll] = useState(true);

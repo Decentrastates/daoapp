@@ -314,6 +314,7 @@
       "voteTitle": "获胜选项",
       "voteTitleMultisig": "批准进度",
       "states": {
+        "all": "全部",
         "draft": "草稿",
         "pending": "待处理",
         "active": "活跃",

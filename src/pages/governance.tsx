@@ -125,7 +125,7 @@ export const Governance: React.FC = () => {
 
   return (
     <PageWrapper
-      title={'Proposals'}
+      title={t('governance.title')}
       primaryBtnProps={{
         label: t('governance.action'),
         iconLeft: <Icon icon={IconType.PLUS} />,
@@ -148,12 +148,27 @@ export const Governance: React.FC = () => {
             setFilter(selected as ProposalStatus | 'All');
           }}
         >
-          <Option value="All" label="All" />
-          <Option value="Pending" label="Pending" />
-          <Option value="Active" label="Active" />
-          <Option value="Succeeded" label="Succeeded" />
-          <Option value="Executed" label="Executed" />
-          <Option value="Defeated" label="Defeated" />
+          <Option value="All" label={t('governance.proposals.states.all')} />
+          <Option
+            value="Pending"
+            label={t('governance.proposals.states.pending')}
+          />
+          <Option
+            value="Active"
+            label={t('governance.proposals.states.active')}
+          />
+          <Option
+            value="Succeeded"
+            label={t('governance.proposals.states.succeeded')}
+          />
+          <Option
+            value="Executed"
+            label={t('governance.proposals.states.executed')}
+          />
+          <Option
+            value="Defeated"
+            label={t('governance.proposals.states.defeated')}
+          />
         </ButtonGroup>
       </ButtonGroupContainer>
       <ListWrapper>
