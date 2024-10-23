@@ -1214,7 +1214,7 @@
     },
     "claimPoap": {
       "ctaLabel": "Claim POAP now",
-      "ctaURL": "https://poap-claim-app.aragon.org/",
+      "ctaURL": "https://poap-claim-www.cddao.com/",
       "title": "Claim your DAO Builder POAP"
     },
     "mintTokensToTreasury": {

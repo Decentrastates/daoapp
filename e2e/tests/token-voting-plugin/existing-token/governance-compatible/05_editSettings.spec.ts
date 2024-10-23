@@ -40,7 +40,7 @@ test('Edit DAO settings Proposal', async ({
   await page
     .getByPlaceholder('https://')
     .fill(
-      'https://app.aragon.org/#/daos/sepolia/0x0cbc9dd19f897ea3d3be69c7184c245461ebc191/dashboard'
+      'https://www.cddao.com/#/daos/sepolia/0x0cbc9dd19f897ea3d3be69c7184c245461ebc191/dashboard'
     );
   await page.getByRole('button', {name: 'Review proposal'}).click();
 

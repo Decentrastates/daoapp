@@ -30,7 +30,7 @@ In the above example, the `VITE_FEATURE_FLAG_DISCOVER_DAO` feature flag is enabl
 To override a feature flag for the current environment, simply append the key and value of the feature flag to the URL as a query parameter and start using the cdDAO App:
 
 ```
-https://app.aragon.org?VITE_FEATURE_FLAG_DISCOVER_DAO=true
+https://www.cddao.com?VITE_FEATURE_FLAG_DISCOVER_DAO=true
 ```
 
 Using the above URL, the `VITE_FEATURE_FLAG_DISCOVER_DAO` flag will be set to true, regardless of the value set in the `.env.production` file. This override will be effective for the whole session, even if the URL changes within the same session. To restore the value of the feature flag to its default or environment-specific setting, the user needs to open the website on a new session.

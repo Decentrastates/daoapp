@@ -219,7 +219,7 @@ export const DaoMember: React.FC = () => {
       <HeaderMember
         ens={memberEns}
         address={memberAddress}
-        profileUrl={`app.aragon.org/#/daos/${network}/${dao}/members/${user}`}
+        profileUrl={`www.cddao.com/#/daos/${network}/${dao}/members/${user}`}
         explorerUrl={explorerUrl}
         explorerName={explorerName}
         avatarUrl={ensAvatar}
