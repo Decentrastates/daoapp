@@ -338,6 +338,7 @@
       "preview": "{{days}} days {{hours}} hours {{minutes}} minutes"
     },
     "noProposals": "No proposals found!",
+    "statusWidgetTitle": "Status",
     "statusWidget": {
       "published": "Published",
       "active": "Running",

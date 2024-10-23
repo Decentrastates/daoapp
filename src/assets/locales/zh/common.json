@@ -338,6 +338,7 @@
       "preview": "{{days}}天{{hours}}小时{{minutes}}分钟"
     },
     "noProposals": "未找到提案！",
+    "statusWidgetTitle": "状态",
     "statusWidget": {
       "published": "已发布",
       "active": "进行中",
@@ -651,7 +652,7 @@
     },
     "defineProposal": {
       "heading": "创建提案",
-      "description": "在此处提供选民做出决定所需的信息。",
+      "description": "在此处提供社区成员做出决定所需的信息。",
       "title": "标题",
       "titlePlaceholder": "为您的提案起一个标题",
       "summaryPlaceholder": "用2-3句话描述您的提案。这将显示在提案概览中。",
@@ -671,7 +672,7 @@
     "title": "创建DAO",
     "overview": {
       "title": "构建DAO",
-      "description": "从简单开始,边做边学。您以后随时可以发展您的DAO。",
+      "description": "从简单开始，边做边学。您以后随时可以扩展您的DAO。",
       "button": "构建您的DAO"
     },
     "step1": {

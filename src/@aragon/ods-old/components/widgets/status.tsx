@@ -2,6 +2,7 @@ import React from 'react';
 import {styled} from 'styled-components';
 
 import {ProgressStatus, type ProgressStatusProps} from '../progress/status';
+import {useTranslation} from 'react-i18next';
 
 export type WidgetStatusProps = {
   /**
@@ -14,9 +15,11 @@ export type WidgetStatusProps = {
 };
 
 export const WidgetStatus: React.FC<WidgetStatusProps> = ({steps}) => {
+  const {t} = useTranslation();
+
   return (
     <Card data-testid="widgetStatus">
-      <Header>Status</Header>
+      <Header>{t('governance.statusWidgetTitle')}</Header>
 
       {steps.length > 0 ? (
         steps.map(s => {
