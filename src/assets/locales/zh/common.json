@@ -678,7 +678,7 @@
     "step1": {
       "label": "第1步",
       "title": "选择区块链",
-      "description": "您选择的链是存储您的代币和资产的地方。如果您已经有代币,请选择铸造该代币的链。这以后无法更改。",
+      "description": "您选择的链是存储您的代币和资产的地方。如果您已经有代币，请选择铸造该代币的链。创建成功后无法更换主链。",
       "descriptionLinkURL": "https://cddao.com/how-to/choose-the-right-blockchain-for-your-dao"
     },
     "step2": {
@@ -924,8 +924,8 @@
     "no": "否",
     "approve": "批准",
     "approvedBy": "由…… 批准",
-    "ofMemberCount": "共 {{memberCount}} 个成员中的",
-    "ofAddressCount": "{{value}} 共 {{total}} 个地址中的",
+    "ofMemberCount": "/{{memberCount}}的成员批准",
+    "ofAddressCount": "{{value}}/{{total}}的地址批准",
     "yesHelptext": "您的选择将被计为 “是”",
     "abstainHelptext": "您的选择将被计为 “弃权”",
     "noHelptext": "您的选择将被计为 “否”",
@@ -1097,10 +1097,10 @@
       "labelAmount": "{{amount}} 个去中心化自治组织（DAOs）"
     },
     "sortBy": {
-      "largestTreasury": "按最大金库排序",
-      "mostProposals": "按提案最多排序",
-      "largestCommunity": "按成员最多（最大社区）排序",
-      "recentlyCreated": "按最近创建排序"
+      "largestTreasury": "按社区金库大小排序",
+      "mostProposals": "按提案多少排序",
+      "largestCommunity": "按社区成员多少排序",
+      "recentlyCreated": "按最近创建社区排序"
     }
   },
   "privacyPolicy": {
