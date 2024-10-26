@@ -44,6 +44,7 @@ const AddActionMenu: React.FC<AddActionMenuProps> = ({actions}) => {
             title={a.title}
             subtitle={a.subtitle}
             tag={a.tag}
+            wcLogo={a.wcLogo}
             mode={
               !a.isReuseable && usedActions.some(ua => ua.name === a.type)
                 ? 'disabled'

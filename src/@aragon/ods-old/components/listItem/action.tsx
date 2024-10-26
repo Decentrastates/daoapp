@@ -1,6 +1,5 @@
 import React, {type ButtonHTMLAttributes} from 'react';
 import {styled} from 'styled-components';
-
 import {AvatarDao} from '../avatar';
 import {ITagProps, Tag} from '@aragon/ods';
 
@@ -26,6 +25,10 @@ export type ListItemActionProps = CustomButtonProps & {
   title: string;
   tag?: ITagProps;
   /**
+   * WalletConnect logo. Optional. Displayed inline with the title.
+   */
+  wcLogo?: boolean;
+  /**
    * Normal font, small. Optional. Displayed below the title, left aligned
    */
   subtitle?: string;
@@ -42,6 +45,7 @@ export const ListItemAction: React.FC<ListItemActionProps> = ({
   iconLeft,
   iconRight,
   tag,
+  wcLogo,
   mode = 'default',
   truncateText = false,
   ...props
@@ -53,7 +57,7 @@ export const ListItemAction: React.FC<ListItemActionProps> = ({
         {/* This could be done with label. However, I can't get the label's text
          to inherit the color (for example, when selected mode is on) */}
         <LabelContainer>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-x-1">
             <p
               className={`font-semibold ft-text-base ${
                 truncateText ? 'truncate' : ''
@@ -61,7 +65,13 @@ export const ListItemAction: React.FC<ListItemActionProps> = ({
             >
               {title}
             </p>
+
             {tag && <Tag {...tag} />}
+            {wcLogo && (
+              <span>
+                <WalletConnectLogoMini />
+              </span>
+            )}
           </div>
           {subtitle && (
             <p
@@ -141,3 +151,19 @@ const LabelContainer = styled.div.attrs({
 const LeftContent = styled.div.attrs({
   className: 'flex items-center space-x-3 flex-1 overflow-hidden',
 })``;
+
+const WalletConnectLogoMini = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 16 16"
+      className="h-5"
+      fill="currentColor"
+    >
+      <path
+        d="M3.276 5.05c2.609-2.521 6.84-2.521 9.449 0l.314.304c.13.126.13.33 0 .457l-1.075 1.038a.171.171 0 0 1-.236 0l-.432-.417c-1.82-1.76-4.772-1.76-6.592 0l-.463.447a.171.171 0 0 1-.236 0L2.931 5.841a.315.315 0 0 1 0-.457l.345-.333Zm11.67 2.148.956.924c.13.126.13.33 0 .457l-4.31 4.167a.342.342 0 0 1-.473 0L8.059 9.79a.086.086 0 0 0-.118 0l-3.06 2.957a.342.342 0 0 1-.472 0L.098 8.58a.315.315 0 0 1 0-.457l.956-.924a.342.342 0 0 1 .472 0l3.06 2.958a.086.086 0 0 0 .118 0l3.06-2.958a.342.342 0 0 1 .472 0l3.06 2.958a.086.086 0 0 0 .118 0l3.06-2.958a.342.342 0 0 1 .472 0Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+};

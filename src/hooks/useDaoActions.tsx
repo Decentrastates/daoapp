@@ -87,7 +87,7 @@ export function useDaoActions(dao: string): HookData<ActionParameter[]> {
       title: t('AddActionModal.connectdAppsTitle'),
       subtitle: t('AddActionModal.connectdAppsSubtitle'),
       isReuseable: true,
-      tag: {label: 'Alpha', variant: 'warning'},
+      wcLogo: true,
       isDisabled:
         featureFlags.getValue('VITE_FEATURE_FLAG_DAO_WALLET_CONNECT') ===
         'false',
