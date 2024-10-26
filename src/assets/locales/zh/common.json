@@ -1074,7 +1074,7 @@
         },
         "ctaLabel": {
           "see0": "查看 0 个去中心化自治组织（DAOs）",
-          "see {{amount}}": "查看 {{amount}} 个去中心化自治组织（DAOs）",
+          "see{{amount}}": "查看 {{amount}} 个去中心化自治组织（DAOs）",
           "seeAll": "查看所有去中心化自治组织（DAOs）"
         },
         "buttonLabel": {
