@@ -17,7 +17,7 @@
     "learnLinkLabel": "学习",
     "learnLinkURL": "https://cddao.com/education-portal",
     "buildLinkLabel": "构建",
-    "buildLinkURL": "https://devs.aragon.org/",
+    "buildLinkURL": "https://devs.cddao.com/",
     "helpLinkLabel": "帮助",
     "helpLinkURL": "https://discord.gg/AhzsGmh7fK",
     "termsLinkLabel": "服务条款",
@@ -223,7 +223,7 @@
     "minimumApprovalAdditionalInfo": "当新钱包被添加到多重签名DAO或从中移除时，你必须审查最低批准数。",
     "minimumApprovalProgressInfo": "{{amount}}个地址中的",
     "anyWallet": "任何钱包",
-    "aragonOSx": "Aragon OSx",
+    "aragonOSx": "DAO OSx",
     "disconnectWallet": "断开钱包连接",
     "submitProposal": "发布提案",
     "addWalletsDescriptionLinkLabel": "阅读我们的指南",
@@ -257,7 +257,7 @@
     "searchTokens": "输入搜索...",
     "searchTransfers": "输入过滤...",
     "daoName": "输入你的DAO名称...",
-    "ensName": "aragon",
+    "ensName": "ens name",
     "daoDescription": "输入你的摘要...",
     "addResource": "Lens、Discord等",
     "searchWalletAddress": "按ENS或钱包地址过滤..."
@@ -557,7 +557,7 @@
     "noAddresses": "未找到地址"
   },
   "TransactionModal": {
-    "approveSubtitle": "要签署您的第一笔交易,您必须在钱包中批准Aragon应用程序。",
+    "approveSubtitle": "要签署您的第一笔交易,您必须在钱包中批准 DAO 应用程序。",
     "approveToken": "批准代币",
     "depositTitle": "签署存款",
     "goToFinance": "前往财务",
@@ -684,7 +684,7 @@
     "step2": {
       "label": "第2步",
       "title": "描述您的DAO",
-      "description": "命名并定义您的DAO,以便新贡献者知道他们来到了正确的地方。此信息显示在DAO浏览页面上,可以通过投票进行更改。",
+      "description": "命名并定义您的DAO，以便新贡献者知道他们来到了正确的地方。此信息显示在DAO浏览页面上,可以通过投票进行更改。",
       "nameSubtitle": "最多128个字符",
       "logoSubtitle": "不超过3MB的JPG、PNG或GIF。我们建议1024x1024像素。",
       "descriptionSubtitle": "用几句话描述您DAO的目的。这会在浏览页面上列出,以便新贡献者可以找到您。",
@@ -864,7 +864,7 @@
         "dontClosePage": "在操作进行期间不要关闭此页面。",
         "confirmationFailed": "确认失败……"
       },
-      "POAPtitle": "您现在是一名 Aragon 去中心化自治组织（DAO）构建者！",
+      "POAPtitle": "您现在是一名 DAO 构建者！",
       "POAPlink": "领取您的 POAP（出席证明协议通证）",
       "ctaLabel": {
         "openDAO": "打开您的去中心化自治组织（DAO）",
@@ -1030,10 +1030,10 @@
       "description": "您仍然可以查看您的去中心化自治组织（DAO）中的即将到来或过去的提案。"
     },
     "statistics": {
-      "daosCreated": "创建的去中心化自治组织（DAO）数量",
-      "aragonMembers": "Aragon 应用去中心化自治组织（DAO）中的成员",
+      "daosCreated": "创建的 DAO 数量",
+      "aragonMembers": "DAO 成员",
       "activeProposals": "活跃提案",
-      "securedByAragon": "由 Aragon OSx 保障"
+      "securedByAragon": "由 DAO OSx 保障"
     },
     "learn": {
       "linkLabel": "了解去中心化自治组织（DAO）",
@@ -1140,7 +1140,7 @@
     },
     "build": {
       "title": "更快构建",
-      "description": "使用我们的治理插件在 Aragon OSx 协议上构建去中心化自治组织（DAO）、去中心化应用（dApp）或任何您能想象到的东西。",
+      "description": "使用我们的治理插件在 DAO OSx 协议上构建去中心化自治组织（DAO）、去中心化应用（dApp）或任何您能想象到的东西。",
       "actionLabel": "即将推出"
     },
     "404": {
@@ -1242,7 +1242,7 @@
       "inputAmountBalance": "您的余额：{{amount}}{{tokenSymbol}}",
       "footerTitle": "批准通证",
       "footerSteps": "第 {{step}} 步，共 {{steps}} 步",
-      "footerDesc": "要包装此 {{tokenSymbol}}，您必须首先批准 Aragon 应用可使用的数量。",
+      "footerDesc": "要包装此 {{tokenSymbol}}，您必须首先批准 DAOs 应用可使用的数量。",
       "footerCtaFirst": "批准通证",
       "footerCtaSecond": "包装通证",
       "footerCtaError": "再试一次",
@@ -1554,11 +1554,11 @@
   },
   "og": {
     "title": {
-      "aragonApp": "// Aragon 应用"
+      "aragonApp": "// DAOs 应用"
     },
     "explore": {
       "desc": "在一个地方构建您的去中心化自治组织（DAO）、探索社区并寻找灵感。",
-      "title": "Aragon 应用"
+      "title": "DAOs 应用"
     },
     "governance": {
       "title": "{{daoName}} 的治理",
@@ -1598,17 +1598,17 @@
   },
   "update": {
     "banner": {
-      "title": "Aragon OSx 有可用更新。",
+      "title": "DAO OSx 有可用更新。",
       "ctaLabel": "查看更新"
     },
     "alert": {
-      "title": "Aragon OSx 有可用更新。",
-      "desc": "有新的 Aragon 智能合约版本可用。更新您的去中心化自治组织（DAO）需要创建并通过一个提案。",
+      "title": "DAO OSx 有可用更新。",
+      "desc": "有新的 DAO 智能合约版本可用。更新您的去中心化自治组织（DAO）需要创建并通过一个提案。",
       "ctaLabel": "查看更新"
     },
     "reviewUpdates": {
-      "headerDesc": "Aragon 团队会定期发布新功能和安全改进。虽然更新不会自动应用，但任何社区成员都可以查看下面的发行说明并提议更新。",
-      "headerTitle": "Aragon OSx 更新"
+      "headerDesc": "团队会定期发布新功能和安全改进。虽然更新不会自动应用，但任何社区成员都可以查看下面的发行说明并提议更新。",
+      "headerTitle": "DAO OSx 更新"
     },
     "item": {
       "releaseNotesLabel": "查看发行说明",
@@ -1632,18 +1632,18 @@
     },
     "proposal": {
       "bannerTitle": "OSx 更新",
-      "title": "Aragon OSx 更新",
-      "summary": "此提案是针对 {{daoName}} 的 Aragon OSx 更新。标题、摘要和描述文本由 Aragon 应用自动生成。",
-      "descriptionFooter": "</ul><p>在投票之前考虑升级的影响至关重要。阅读上述发行说明并确认此 OSx 更新通过了 Aragon 的安全验证。</p>",
+      "title": "DAO OSx 更新",
+      "summary": "此提案是针对 {{daoName}} 的 DAO OSx 更新。标题、摘要和描述文本由 DAO 应用自动生成。",
+      "descriptionFooter": "</ul><p>在投票之前考虑升级的影响至关重要。阅读上述发行说明并确认此 OSx 更新通过了 DAO 的安全验证。</p>",
       "descriptionHeader": "<p>此提案包含链上交易，这些交易将按如下方式升级特定智能合约组件：</p><ul>",
       "descriptionProtocolUpgrade": "<li><strong>{{updatedVersion}}</strong><ol><li><strong>当前版本</strong>: {{currentVersion}}</li><li><strong>升级描述</strong>: {{description}}</li><ol><li><a href={{releaseNotesLink}} target=”_blank” rel=”noopener noreferrer”> 查看发行说明</a></li></ol><li><strong>注意</strong>: 去中心化自治组织（DAO）的地址永远不会改变</li></ol></li>",
       "descriptionPluginUpgrade": "<li><strong>{{updatedVersion}}</strong><ol><li><strong>当前版本</strong>: {{currentVersion}}</li><li><strong>升级描述</strong>: {{description}}</li><ol><li><a href={{releaseNotesLink}} target=”_blank” rel=”noopener noreferrer”> 查看发行说明</a></li></ol></ol></li>"
     },
     "modalCritical": {
       "title": "您确定要继续吗？",
-      "desc": "此提案可能会使您的去中心化自治组织（DAO）面临风险。在 {{link}} 了解更多关于 Aragon OSx 更新的信息。",
+      "desc": "此提案可能会使您的去中心化自治组织（DAO）面临风险。在 {{link}} 了解更多关于 DAO OSx 更新的信息。",
       "alertTitle": "您的去中心化自治组织（DAO）的潜在风险",
-      "alertDesc": "一个或多个提案操作不在 Aragon 更新注册表中，这表明此更新可能有害。",
+      "alertDesc": "一个或多个提案操作不在 DAOs 更新注册表中，这表明此更新可能有害。",
       "ctaMainLabel": "返回提案",
       "ctaSecondaryLabel": "继续投票",
       "inputLabel": "使用去中心化自治组织（DAO）地址确认",
@@ -1655,7 +1655,7 @@
     },
     "verification": {
       "title": "更新验证",
-      "desc": "Aragon OSx 更新在投票或执行之前应始终进行验证。以下检查是最基本的，由 Aragon 应用为您自动执行。要了解更多关于 Aragon OSx 更新的信息，{{link}}。",
+      "desc": "DAO OSx 更新在投票或执行之前应始终进行验证。以下检查是最基本的，由 DAOs 应用为您自动执行。要了解更多关于 DAO OSx 更新的信息，{{link}}。",
       "itemPending": "正在检查 {{updateName}} 更新……",
       "itemSuccess": "{{updateName}} 更新已验证",
       "itemCriticalDecoding": {
@@ -1663,13 +1663,13 @@
       },
       "itemCritical": {
         "linkLabel": "查看详情",
-        "linkURL": "https://devs.aragon.org/docs/sdk/update - security - check/"
+        "linkURL": "https://devs.cddao.com/docs/sdk/update - security - check/"
       },
       "itemCriticalFailed": {
         "desc": "我们的一个或多个检查发现这些操作构建不正确，这表明此更新有害。"
       },
       "descLinkLabel": "阅读我们的指南",
-      "descLinkURL": "https://cddao.com/how - to/update - your - aragon - dao"
+      "descLinkURL": "https://cddao.com/how-to/update-your-dao"
     }
   },
   "setting": {
